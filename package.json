@@ -1,0 +1,23 @@
+{
+  "name": "nueva-carpeta",
+  "version": "1.0.0",
+  "description": "",
+  "main": "servidor.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node servidor.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "http": "0.0.0",
+    "net": "^1.0.2",
+    "os": "^0.1.1",
+    "socket.io": "^2.2.0",
+    "string_decoder": "^1.2.0"
+  },
+  "engines": {
+    "node": "10.x"
+  }
+}
