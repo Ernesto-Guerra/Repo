@@ -24,7 +24,7 @@ const {StringDecoder} = require('string_decoder')
 var HOST = "gcag.ddns.net"
 
 
-var PORT = 3000
+var PORT = 5000
 
 
 var ser = net.createServer(function(so){    
@@ -39,7 +39,7 @@ var ser = net.createServer(function(so){
 //        console.log(data.toString())
 	var date = new Date();
  console.log(data.toString() + date.toDateString());
-       so.write('Enviaste un mensaje al servidor 1 a las: '+date.toDateString()+'\n')
+       so.write('Enviaste un mensaje al servidor 3 a las: '+date.toDateString()+'\n')
     })
 
     so.on('close',function(){
